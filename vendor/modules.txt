@@ -28,8 +28,6 @@ github.com/pmezard/go-difflib/difflib
 github.com/sergi/go-diff/diffmatchpatch
 # github.com/shogo82148/go-shuffle v0.0.0-20180218125048-27e6095f230d
 github.com/shogo82148/go-shuffle
-# github.com/shurcooL/sanitized_anchor_name v1.0.0
-github.com/shurcooL/sanitized_anchor_name
 # github.com/spf13/pflag v1.0.0
 github.com/spf13/pflag
 # github.com/src-d/gcfg v1.4.0
@@ -94,8 +92,6 @@ gonum.org/v1/gonum/internal/math32
 # gopkg.in/neurosnap/sentences.v1 v1.0.6
 gopkg.in/neurosnap/sentences.v1
 gopkg.in/neurosnap/sentences.v1/data
-# gopkg.in/russross/blackfriday.v2 v2.0.0-00010101000000-000000000000 => github.com/russross/blackfriday/v2 v2.0.1
-gopkg.in/russross/blackfriday.v2
 # gopkg.in/src-d/go-billy-siva.v4 v4.3.0
 gopkg.in/src-d/go-billy-siva.v4
 # gopkg.in/src-d/go-billy.v4 v4.3.0

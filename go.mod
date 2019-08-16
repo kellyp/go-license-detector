@@ -26,14 +26,11 @@ require (
 	golang.org/x/text v0.3.0
 	gonum.org/v1/gonum v0.0.0-20180205154402-996b88e8f894
 	gopkg.in/neurosnap/sentences.v1 v1.0.6 // indirect
-	gopkg.in/russross/blackfriday.v2 v2.0.0-00010101000000-000000000000
 	gopkg.in/src-d/go-billy-siva.v4 v4.3.0
 	gopkg.in/src-d/go-billy.v4 v4.3.0
 	gopkg.in/src-d/go-git.v4 v4.1.0
 	gopkg.in/src-d/go-siva.v1 v1.7.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
-
-replace gopkg.in/russross/blackfriday.v2 => github.com/russross/blackfriday/v2 v2.0.1
 
 module github.com/kellyp/go-license-detector
