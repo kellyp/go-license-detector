@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/filer"
+	"github.com/kellyp/go-license-detector/licensedb/filer"
 )
 
 func TestDataset(t *testing.T) {

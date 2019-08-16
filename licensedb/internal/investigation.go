@@ -8,8 +8,8 @@ import (
 	"strings"
 	"sync"
 
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/filer"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/internal/processors"
+	"github.com/kellyp/go-license-detector/licensedb/filer"
+	"github.com/kellyp/go-license-detector/licensedb/internal/processors"
 )
 
 var (

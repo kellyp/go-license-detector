@@ -4,8 +4,8 @@ import (
 	"errors"
 	paths "path"
 
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/filer"
-	"gopkg.in/src-d/go-license-detector.v2/licensedb/internal"
+	"github/kellyp/go-license-detector.v2/licensedb/internal"
+	"github.com/kellyp/go-license-detector/licensedb/filer"
 )
 
 var (
