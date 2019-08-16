@@ -7,6 +7,7 @@ import (
 	"sync"
 
 	"github.com/kellyp/go-license-detector/licensedb/filer"
+	"github.com/kellyp/go-license-detector/licensedb/internal"
 )
 
 // Analyse runs license analysis on each item in `args`
@@ -40,7 +41,7 @@ func AnalyseText(args ...string) []Result {
 	for i, arg := range args {
 		go func(i int, arg string) {
 			defer wg.Done()
-			// matches := internal.InvestigateLicenseText(arg)
+			matches := internal.InvestigateLicenseText(arg)
 			res := Result{Arg: arg, Matches: matches}
 			results[i] = res
 		}(i, arg)
