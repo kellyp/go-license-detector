@@ -41,7 +41,11 @@ func AnalyseText(args ...string) []Result {
 	for i, arg := range args {
 		go func(i int, arg string) {
 			defer wg.Done()
-			matches := internal.InvestigateLicenseText(arg)
+			ls := internal.InvestigateLicenseText([]byte(arg))
+			var matches []Match
+			for k, v := range ls {
+				matches = append(matches, Match{k, v})
+			}
 			res := Result{Arg: arg, Matches: matches}
 			results[i] = res
 		}(i, arg)
