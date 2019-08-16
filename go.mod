@@ -12,7 +12,7 @@ require (
 	github.com/montanaflynn/stats v0.5.0 // indirect
 	github.com/pkg/errors v0.8.0
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/russross/blackfriday/v2 v2.0.1 // indirect
+	github.com/russross/blackfriday/v2 v2.0.1
 	github.com/sergi/go-diff v0.0.0-20180205163309-da645544ed44
 	github.com/shogo82148/go-shuffle v0.0.0-20180218125048-27e6095f230d // indirect
 	github.com/shurcooL/sanitized_anchor_name v1.0.0 // indirect

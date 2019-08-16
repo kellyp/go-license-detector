@@ -4,7 +4,8 @@ import (
 	"errors"
 	paths "path"
 
-	"github/kellyp/go-license-detector.v2/licensedb/internal"
+	"github.com/kellyp/go-license-detector/licensedb/internal"
+
 	"github.com/kellyp/go-license-detector/licensedb/filer"
 )
 

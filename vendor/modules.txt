@@ -24,10 +24,14 @@ github.com/montanaflynn/stats
 github.com/pkg/errors
 # github.com/pmezard/go-difflib v1.0.0
 github.com/pmezard/go-difflib/difflib
+# github.com/russross/blackfriday/v2 v2.0.1
+github.com/russross/blackfriday/v2
 # github.com/sergi/go-diff v0.0.0-20180205163309-da645544ed44
 github.com/sergi/go-diff/diffmatchpatch
 # github.com/shogo82148/go-shuffle v0.0.0-20180218125048-27e6095f230d
 github.com/shogo82148/go-shuffle
+# github.com/shurcooL/sanitized_anchor_name v1.0.0
+github.com/shurcooL/sanitized_anchor_name
 # github.com/spf13/pflag v1.0.0
 github.com/spf13/pflag
 # github.com/src-d/gcfg v1.4.0
